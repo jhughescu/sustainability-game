@@ -1,0 +1,28 @@
+{
+  "name": "sustainability-game",
+  "version": "1.0.0",
+  "description": "Multiplayer Sustainability Game - deployment version",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jhughescu/sustainability-game.git"
+  },
+  "author": "John Hughes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhughescu/sustainability-game/issues"
+  },
+  "homepage": "https://github.com/jhughescu/sustainability-game#readme",
+  "devDependencies": {
+    "csv-writer": "^1.6.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.2"
+  }
+}
